@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import { Formik, Form, Field, ErrorMessage, FieldArray } from "formik";
 import * as Yup from "yup";
 import { toast } from "sonner";
@@ -9,8 +8,6 @@ import AddData from "./actions/AddData";
 import Link from "next/link";
 
 export default function SurveyForm() {
-  const [formData, setFormData] = useState({});
-
   const validationSchema = Yup.object({
     doorNumber: Yup.string().required("Door number is required"),
     numberOfPeople: Yup.number()
