@@ -5,7 +5,7 @@ import { Formik, Form, Field, ErrorMessage, FieldArray } from "formik";
 import * as Yup from "yup";
 import { toast } from "sonner";
 import { Toaster } from "sonner";
-import AddData from "@/actions/AddData";
+import AddData from "./actions/AddData";
 import Link from "next/link";
 
 export default function SurveyForm() {

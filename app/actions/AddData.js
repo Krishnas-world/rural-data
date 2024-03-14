@@ -1,5 +1,5 @@
 "use server";
-import { app } from "../firebase";
+import { app } from "../../firebase";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 
 export default async function AddData(data) {

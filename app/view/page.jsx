@@ -1,5 +1,5 @@
 "use client";
-import DataShow from "@/components/DataShow";
+import DataShow from "../components/DataShow";
 import { app } from "../../firebase";
 import { getFirestore, collection, getDocs } from "firebase/firestore";
 

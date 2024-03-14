@@ -1,3 +1,5 @@
+"use client";
+
 export default function DataShow(data) {
   return (
     <div className="w-full h-screen justify-center items-center">
